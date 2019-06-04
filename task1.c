@@ -1,9 +1,9 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <math.h>
 
 void f(const double* x, double* result)
 {
-	*result = 2 pow(pow(1* *x + 1, 1) - 21 * *x, 0.5) / (3 * pow(*x, 0.5) - 2 / pow(*x, 0.5));
+	*result = pow(pow(3 * *x + 2, 2) - 24 * *x, 0.5) / (3 * pow(*x, 0.5) - 2 / pow(*x, 0.5));
 }
 
 void main()
